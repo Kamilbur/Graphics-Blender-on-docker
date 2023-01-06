@@ -1,5 +1,11 @@
 # Graphics-Blender-on-docker
 
+Add your ssh pub key to docker.pub
+
+Build image:
+```
+$ docker build -t blenda-image .
+```
 ```
 $ docker run -p <port number>:10000 -it blenda-image 
 ```
